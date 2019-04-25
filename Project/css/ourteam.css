@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+body,html{
+    height: 100%;
+}
+
+h1{
+    font-family: 'Oleo Script', cursive;
+}
+
+.imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.imgBox img{
+    transition: 5s;
+    width: 100%;
+}
+
+
+.column:hover .imgBox img{
+    transform: scale(1.2);
+}
+
+.details{
+    position: absolute;
+    bottom: 0;
+    background: rgba(255,2550,255,.9);
+    width: inherit;
+    transition: .5s;
+    
+}
+
+
+.details h3{
+    text-transform: uppercase;
+    text-align: 
+}
+
+.details h3 span{
+    color: brown;
+}
+
+.details ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.details ul li{
+    list-style: none;
+}
+
+.details ul li a{
+    padding: 0% 20%;
+}

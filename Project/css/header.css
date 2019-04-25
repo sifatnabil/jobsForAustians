@@ -1,0 +1,18 @@
+#hidden{
+    width: 100%;  
+}
+
+.my-navbar {
+    color: white;
+    background-color: rgb(31, 158, 22);
+}
+
+.site-name{
+    font-family: 'Oleo Script', cursive;
+    font-size: 2em;
+}
+
+.btn-success{
+    background-color: rgb(31, 158, 22);
+    border: 0;
+}

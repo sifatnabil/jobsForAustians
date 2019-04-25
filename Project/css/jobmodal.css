@@ -1,0 +1,21 @@
+label{
+    display: block;
+}
+
+#job-context{
+    resize: none;
+    height: auto;
+    border-radius: 5px;
+    border-color: rgb(212, 215, 221);
+}
+
+.job-res{
+    resize: none;
+    height: auto;
+    border-radius: 5px;
+    border-color: rgb(212, 215, 221);
+}
+
+.emp-stat-txt{
+    display: inline;
+}

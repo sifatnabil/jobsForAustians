@@ -1,0 +1,38 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-image: url("../image/apple-business-click-392018.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.job-form{
+    background: rgba(255,255,255,0.9);
+    padding: 2% 2% 2% 2%;
+    border-radius: 10px;
+}
+
+.submit-button{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+label{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+input,textarea {
+    margin-bottom: 2%;
+}
+
+.form-control:focus{
+    border-color: rgb(31, 158, 22);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
